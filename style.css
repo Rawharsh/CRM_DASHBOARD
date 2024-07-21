@@ -1,0 +1,447 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .body{
+    padding: 20px;
+} */
+
+.crm{
+    display: flex;
+    /* height: 900px; */
+}
+
+.left{
+    width: 15%;
+   /* border: 1px solid red; */
+   
+}
+
+
+/* for working of hamburger */
+.left-width{
+    width: 0;
+}
+
+.left-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 30px;
+    height: 25px;
+    border-radius: 30%;
+    background-size: cover;
+}
+
+.left-down{
+   /* border: 1px solid yellow; */
+}
+
+
+
+.box{
+   /* border: 1px solid red; */
+   padding: 20px;
+   transition: 0.9s;
+   padding: 20px;
+   margin: 10px 0px;
+   /* transform: 0.5s; */
+}
+
+.boxdiv ul{
+  
+    list-style: none;
+    padding: 10px;
+    
+   
+}
+
+.show{
+    display: block;
+    transition: 0.5s;
+}
+
+.hide{
+    display: none;
+}
+
+.box  i{
+    padding-right: 6%;
+}
+.box:hover{
+    background-color: rgb(192, 192, 235);
+    color: blue;
+}
+
+
+
+
+.right{
+    width: 85%;
+    /* border: 1px solid rgb(156, 2, 146); */
+    background-color: #f1f3f5;;
+
+   
+
+}
+
+
+/* for working of hamburger */
+.right-width{
+    width:100%
+}
+
+.right-header{
+    height: 75px;
+    /* border: 1px solid red; */
+    background-color: #142b3d;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.profile-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+
+.hamburger{
+    margin-right: 4%;
+    font-size: 27px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.search-bar{
+    /* width: 1%; */
+    width: 66%;
+    height: 25px;
+    /* border: 1px solid green; */
+    /* margin-right: 10px; */
+    border-radius: 20px;
+}
+
+.search-bar input{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+
+}
+.search  button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+
+
+.right-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    width: 28%;
+    padding: 10px;
+    gap: 0 10%;
+}
+
+.right-div i{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.table-head ul li{
+    display: inline;
+    margin: 10px 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.drop-down-content{
+    /* border: 1px solid purple; */
+    margin-top: 10px;
+    background-color: #f5f1f1;
+    border-radius: 10px;
+    position: absolute;
+    top: 9%;
+    right: 3%;
+    z-index: 2;
+}
+
+.drop-down-content li{
+    display: block;
+    display: block;
+    /* position: relative;
+    left: 15%; */
+    padding: 10px 20px;
+    
+}
+
+.drop-down-content li i{
+    color: black;
+}
+
+/* .right-div ul li{
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+.right-mid{
+    height: 470px;
+    /* border: 1px solid rgb(47, 0, 255); */
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+   
+}
+
+
+.overlay-contanier,.edit-container{
+    /* border: 1px solid purple; */
+    width: 300px;
+    height: 423px;
+    background-color:#e0dbdb;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    /* display: none; */
+    
+}
+
+
+
+
+
+.form-container , .edit-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.h3i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cross{
+    margin-right: 10px;
+}
+
+
+/* .form-container h3{
+    margin: 10px;
+} */
+
+.form-label{
+    padding: 10px;
+}
+.form-input{
+    background-color: white;
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 15px;
+    border:none;
+}
+.submit-btn,.edit-btn{
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+
+.crud{
+    margin-top:38px;
+    width: 90%;
+    /* border: 1px solid red; */
+    overflow-y: scroll;
+}
+
+.crud::-webkit-scrollbar{
+  display: none;
+}
+
+.table-head{
+   
+    background-color: #142b3d;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.addEmp{
+    /* border: 1px solid rgb(5, 243, 60); */
+    background-color: green;
+    padding: 10px;
+    position: sticky;
+    left: 78%;
+}
+
+.table-tag{
+    width: 100%;
+   /* border: 1px solid rgb(9, 222, 73); */
+}
+table{
+    width: 100%;
+}
+
+/* table tr{
+    border: 1px solid rgb(8, 8, 7);
+} */
+
+.table-tag tr th{
+    background-color: #e0dbdb;
+    width: 20% ;
+    padding: 15px;
+}
+
+.table-tag tr td{
+    background-color:#f1e9e9;
+    width: 20% ;
+    padding: 15px;
+}
+
+.edit-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-down{
+    margin-top: 70px;
+    height: 80px;
+    background-color: #142b3d;
+    /* border: 1px solid rgb(8, 8, 7); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+
+
+@media (max-width : 1035px){
+    .left{
+        width: 25%;
+    }
+    .right{
+        width: 75%;
+    }
+
+    .left-width{
+        width: 0;
+    }
+
+    .right-width{
+        width: 100%;
+    }
+
+    .table-tag{
+        overflow-x: scroll;
+    }
+}
+
+
+@media (max-width: 700px){
+
+
+  .hamburger{
+    position: fixed;
+    right: 4%;
+  }
+
+ .left{
+    width: 0%;
+ }
+
+  .left-width{
+        width: 250px;
+        position: absolute;
+        z-index: 4;
+        background-color: white;
+        height: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+   .right-div{
+    width: 35%;
+    gap: 0% 0%;
+   }
+
+    .right-div div{
+        margin: 0px 10px;
+    }
+
+    
+   .right-header{
+    justify-content: flex-start;
+   }
+
+
+   .drop-down-content{
+    right: 19%;
+   }
+
+}
+
+
+@media (max-width:440px) {
+    .right-div div {
+        margin: 0px 5px;
+    }
+}
